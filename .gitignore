@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded third-party party logos (not used by charts; avoid redistributing)
+logos/
+
+# OS
+.DS_Store

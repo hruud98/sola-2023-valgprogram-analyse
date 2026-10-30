@@ -1,0 +1,122 @@
+[
+  {
+    "parti": "Arbeiderpartiet",
+    "forkortelse": "AP",
+    "antall": 160,
+    "fordeling": [
+      14,
+      48,
+      40,
+      46,
+      12
+    ],
+    "snitt": 2.96,
+    "andel_hoy_4_5": 36.3,
+    "andel_lav_1_2": 38.8
+  },
+  {
+    "parti": "Høyre",
+    "forkortelse": "H",
+    "antall": 80,
+    "fordeling": [
+      5,
+      31,
+      25,
+      16,
+      3
+    ],
+    "snitt": 2.76,
+    "andel_hoy_4_5": 23.8,
+    "andel_lav_1_2": 45.0
+  },
+  {
+    "parti": "Fremskrittspartiet",
+    "forkortelse": "FrP",
+    "antall": 57,
+    "fordeling": [
+      4,
+      20,
+      10,
+      20,
+      3
+    ],
+    "snitt": 2.96,
+    "andel_hoy_4_5": 40.4,
+    "andel_lav_1_2": 42.1
+  },
+  {
+    "parti": "Sosialistisk Venstreparti",
+    "forkortelse": "SV",
+    "antall": 114,
+    "fordeling": [
+      3,
+      19,
+      40,
+      46,
+      6
+    ],
+    "snitt": 3.29,
+    "andel_hoy_4_5": 45.6,
+    "andel_lav_1_2": 19.3
+  },
+  {
+    "parti": "Kristelig Folkeparti",
+    "forkortelse": "KrF",
+    "antall": 88,
+    "fordeling": [
+      6,
+      34,
+      14,
+      30,
+      4
+    ],
+    "snitt": 2.91,
+    "andel_hoy_4_5": 38.6,
+    "andel_lav_1_2": 45.5
+  },
+  {
+    "parti": "Venstre",
+    "forkortelse": "V",
+    "antall": 69,
+    "fordeling": [
+      2,
+      33,
+      19,
+      13,
+      2
+    ],
+    "snitt": 2.71,
+    "andel_hoy_4_5": 21.7,
+    "andel_lav_1_2": 50.7
+  },
+  {
+    "parti": "Miljøpartiet De Grønne",
+    "forkortelse": "MDG",
+    "antall": 75,
+    "fordeling": [
+      2,
+      32,
+      23,
+      14,
+      4
+    ],
+    "snitt": 2.81,
+    "andel_hoy_4_5": 24.0,
+    "andel_lav_1_2": 45.3
+  },
+  {
+    "parti": "Industri- og Næringspartiet",
+    "forkortelse": "INP",
+    "antall": 83,
+    "fordeling": [
+      9,
+      37,
+      21,
+      12,
+      4
+    ],
+    "snitt": 2.58,
+    "andel_hoy_4_5": 19.3,
+    "andel_lav_1_2": 55.4
+  }
+]
