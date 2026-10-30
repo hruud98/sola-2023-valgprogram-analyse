@@ -15,28 +15,31 @@ programmene til åtte partier ved kommunevalget i Sola 2023.
 Snitt er regnet ut fra fordelingen (sum av score / antall løfter).
 
 ## Hovedfunn
-- **726 løfter** gradert totalt på tvers av åtte partier.
-- **SV er mest konkret** (snitt **3,29**; 46 % av løftene på nivå 4–5).
-- **INP er minst konkret** (snitt **2,58**; 55 % av løftene på nivå 1–2).
-- De fleste partiene ligger tett i intervallet **2,6–3,0** – altså overveiende
-  retningsgivende, men i begrenset grad målbare løfter.
+- **745 løfter** gradert totalt på tvers av åtte partier.
+- **INP er mest konkret** (snitt **3,54**; 50 % av løftene på nivå 4–5),
+  tett fulgt av **MDG** (snitt **3,51**) og **SV** (snitt **3,29**).
+- **Høyre er minst konkret** (snitt **2,76**), med Venstre og KrF like bak.
+- Spennet er større enn først antatt: fra 2,76 (H) til 3,54 (INP).
 
 ## Filer
 | Fil | Innhold |
 |-----|---------|
 | `gradering_sammendrag.csv` | Oppsummering per parti (antall, fordeling 1–5, snitt, andel høy/lav) |
 | `gradering_sammendrag.json` | Samme data som JSON |
-| `detaljert_gradering.csv` | Løfte-for-løfte score for AP, KrF og SV (full linjedata tilgjengelig) |
+| `detaljert_gradering.csv` | Løfte-for-løfte score for alle åtte partiene (745 rader) |
 | `graf_snitt_konkret.png` | Snitt konkretiseringsgrad per parti (NRK-stil, partifarger) |
+| `graf_andel_hoy_4_5.png` | Andel løfter på nivå 4–5 per parti |
 | `graf_fordeling_1_5.png` | Stablet fordeling av score 1–5 per parti |
-| `lag_grafer.py` | Script som genererer begge grafene |
+| `lag_grafer.py` | Script som genererer grafene |
+| `rebuild_data.py` | Bygger sammendrag + detaljert CSV fra per-løfte-data |
 
 ## Forbehold
-- **Detaljert linjedata** (`detaljert_gradering.csv`) finnes kun for **AP, KrF og SV**.
-  For de fem øvrige partiene (Høyre, FrP, INP, MDG, Venstre) er kun aggregert
-  fordeling tilgjengelig.
+- **Detaljert linjedata** (`detaljert_gradering.csv`) finnes nå for **alle åtte partiene**.
 - Gradering er skjønnsmessig og gjort per løftesetning; antall løfter avhenger
   av hvor fint programteksten er splittet.
+- De fem partiene Høyre, FrP, INP, MDG og Venstre ble gradert i en egen, senere
+  kjøring enn AP/KrF/SV. En uavhengig re-gradering kan gi noe ulikt resultat,
+  særlig der et program har mange korte, konkrete punktlister.
 - Partimarkører i grafen bruker ensartede fargede partisirkler med forkortelse
   (offisielle partifarger), ikke nedlastede logoer, for et rent og konsekvent uttrykk.
 
